@@ -4,4 +4,7 @@ vvvvjs-server
 Installation
 ============
 
-    npm install vvvv
+Installs vvvvjs-server and all its dependencies under node_modules/ folder.
+
+    npm install git://github.com/vvvvjs/vvvvjs-server.git
+
