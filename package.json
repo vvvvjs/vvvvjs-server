@@ -1,11 +1,12 @@
 {
   "name": "vvvvjs-server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "vvvvjs-server\r =============",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
-    "express": "~3.1.0",
+    "express": "3.1.0",
+    "jade": "*",
     "socket.io": "~0.9.13"
   }
 }
