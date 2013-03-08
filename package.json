@@ -5,8 +5,8 @@
   "description": "vvvvjs-server\r =============",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "node app",
+    "test": "mocha --bail --recursive --reporter nyan"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,12 @@
   "author": "fibo",
   "license": "BSD",
   "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "1.4.2"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
   "dependencies": {
     "express": "3.1.0",
     "jade": "*",
